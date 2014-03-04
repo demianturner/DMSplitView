@@ -7,9 +7,7 @@ Pod::Spec.new do |s|
   s.authors  = { 'Daniele Margutti' => 'me@danielemargutti.com'}
   s.source   = { :git => 'https://github.com/demianturner/DMSplitView', :tag => '1.0.0' }
   s.source_files = 'DMSplitView'
-  s.requires_arc = false
+  s.requires_arc = true
 
   s.osx.deployment_target = '10.8'
-  s.osx.frameworks = 'WebKit'
-
 end

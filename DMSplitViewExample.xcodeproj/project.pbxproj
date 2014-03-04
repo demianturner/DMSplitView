@@ -68,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				644B8CA216850CB800D50D06 /* DMSplitViewExample */,
+				AD4409A218C6450F0050F3C4 /* Vendor */,
 				644B8C9B16850CB800D50D06 /* Frameworks */,
 				644B8C9916850CB800D50D06 /* Products */,
 			);
@@ -108,7 +109,6 @@
 				644B8CAE16850CB800D50D06 /* DMAppDelegate.h */,
 				644B8CAF16850CB800D50D06 /* DMAppDelegate.m */,
 				644B8CB116850CB800D50D06 /* MainMenu.xib */,
-				AD44099E18C6420E0050F3C4 /* DMSplitView */,
 				644B8CA316850CB800D50D06 /* Supporting Files */,
 				643ECD91168A18E6000C8ECB /* Example Subview */,
 			);
@@ -135,6 +135,14 @@
 			);
 			path = DMSplitView;
 			sourceTree = SOURCE_ROOT;
+		};
+		AD4409A218C6450F0050F3C4 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				AD44099E18C6420E0050F3C4 /* DMSplitView */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
